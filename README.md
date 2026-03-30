@@ -52,9 +52,21 @@ The model uses multivariate sensor inputs:
 * Turbine yaw
 * Vibration
 
-Target variable:
+**Target variable:**
 
 * Power output
+
+---
+
+## 📁 Dataset
+
+This project uses a synthetic wind energy dataset generated to simulate real-world turbine sensor behavior under varying environmental conditions. The dataset captures nonlinear and non-stationary patterns required for evaluating hybrid forecasting models.
+
+* Dataset file: `data/sample_wind_data.csv`
+* Contains multivariate sensor readings and corresponding power output
+* Designed for experimentation and model validation
+
+**Note:** The dataset is a representative sample. Future work includes validation using real-world SCADA datasets.
 
 ---
 
@@ -94,29 +106,31 @@ The system includes:
 
 ### Step 1: Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 ### Step 2: Run the application
 
-```bash
 python main.py
-```
 
 ---
 
 ## 📂 Project Structure
 
-```
 fuzzy-neural-wind-forecast/
 │── main.py
 │── README.md
 │── requirements.txt
 │
+├── data/
+│   ├── sample_wind_data.csv
+│
 ├── documents/
+│   ├── report.pdf
+│   ├── poster.pdf
+│   ├── presentation.pdf
+│
 ├── assets/
-```
+│   ├── dashboard.png
 
 ---
 
@@ -154,3 +168,4 @@ Digumurthy Sruthi Sarika
 ## 📌 Note
 
 This project was developed as part of a capstone in Computer Science and Engineering, focusing on intelligent forecasting systems for real-world smart energy and renewable grid applications.
+
