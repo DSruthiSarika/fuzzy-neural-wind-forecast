@@ -153,4 +153,4 @@ Digumurthy Sruthi Sarika
 
 ## 📌 Note
 
-This project was developed as part of a capstone project in Computer Science and Engineering, focusing on intelligent forecasting systems for smart energy applications.
+This project was developed as part of a capstone in Computer Science and Engineering, focusing on intelligent forecasting systems for real-world smart energy and renewable grid applications.
