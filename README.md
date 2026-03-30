@@ -1,4 +1,3 @@
-# fuzzy-neural-wind-forecast
 # 🚀 Hybrid Fuzzy-Neural Network for Wind Power Forecasting
 
 ## 📌 Project Overview
@@ -6,6 +5,8 @@
 This project presents a hybrid forecasting system that integrates **Fuzzy Time Series (FTS)** with **Neural Networks (MLP)** to predict wind turbine power output using multivariate sensor data.
 
 The model is designed to handle **non-stationary time series**, where traditional methods fail due to noise, uncertainty, and rapidly changing patterns.
+
+This project focuses on real-world smart grid applications, enabling accurate and interpretable wind power forecasting for renewable energy systems.
 
 ---
 
@@ -131,7 +132,7 @@ This repository includes:
 
 ## 🎥 Demo
 
-(Add your demo video link here if available)
+Demo video will be added soon.
 
 ---
 
