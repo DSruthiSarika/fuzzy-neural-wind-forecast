@@ -1,6 +1,6 @@
 # 🚀 Hybrid Fuzzy-Neural Network for Wind Power Forecasting
 
-## 📌 Project Overview
+##  Project Overview
 
 This project presents a hybrid forecasting system that integrates **Fuzzy Time Series (FTS)** with **Neural Networks (MLP)** to predict wind turbine power output using multivariate sensor data.
 
@@ -10,7 +10,7 @@ This project focuses on real-world smart grid applications, enabling accurate an
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Accurate prediction of wind power is challenging due to:
 
@@ -22,7 +22,7 @@ Traditional models such as ARIMA and linear regression fail to capture these com
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 
 This project introduces a **hybrid model** that combines:
 
@@ -37,7 +37,7 @@ This project introduces a **hybrid model** that combines:
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 The model uses multivariate sensor inputs:
 
@@ -58,7 +58,7 @@ The model uses multivariate sensor inputs:
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 This project uses a synthetic wind energy dataset generated to simulate real-world turbine sensor behavior under varying environmental conditions. The dataset captures nonlinear and non-stationary patterns required for evaluating hybrid forecasting models.
 
@@ -70,7 +70,7 @@ This project uses a synthetic wind energy dataset generated to simulate real-wor
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 The system consists of:
 
@@ -82,7 +82,7 @@ The system consists of:
 
 ---
 
-## 📈 Results
+##  Results
 
 The hybrid model demonstrates:
 
@@ -92,7 +92,7 @@ The hybrid model demonstrates:
 
 ---
 
-## 🖥️ Application Interface
+##  Application Interface
 
 The system includes:
 
@@ -102,7 +102,7 @@ The system includes:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### Step 1: Install dependencies
 
@@ -114,7 +114,7 @@ python main.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 fuzzy-neural-wind-forecast/
 │── main.py
@@ -134,7 +134,7 @@ fuzzy-neural-wind-forecast/
 
 ---
 
-## 📄 Project Documents
+##  Project Documents
 
 This repository includes:
 
@@ -144,13 +144,13 @@ This repository includes:
 
 ---
 
-## 🎥 Demo
+##  Demo
 
 Demo video will be added soon.
 
 ---
 
-## 🧠 Key Contributions
+##  Key Contributions
 
 * Hybrid AI model for non-stationary time series
 * Integration of fuzzy reasoning and deep learning
@@ -159,13 +159,13 @@ Demo video will be added soon.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Digumurthy Sruthi Sarika
 
 ---
 
-## 📌 Note
+##  Note
 
 This project was developed as part of a capstone in Computer Science and Engineering, focusing on intelligent forecasting systems for real-world smart energy and renewable grid applications.
 
