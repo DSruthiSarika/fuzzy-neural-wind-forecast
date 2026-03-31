@@ -1,0 +1,62 @@
+# =========================
+# Python Cache Files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Jupyter Notebook Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Model Files (Avoid large uploads)
+# =========================
+models/
+*.pkl
+*.h5
+*.joblib
+
+# =========================
+# Temporary / Backup Files
+# =========================
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Python Distribution / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Cache / Runtime
+# =========================
+.cache/
