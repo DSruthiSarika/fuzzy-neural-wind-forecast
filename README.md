@@ -1,169 +1,161 @@
-# 🚀 Hybrid Fuzzy-Neural Network for Wind Power Forecasting
-
-##  Project Overview
-
-This project presents a hybrid forecasting system that integrates **Fuzzy Time Series (FTS)** with **Neural Networks (MLP)** to predict wind turbine power output using multivariate sensor data.
-
-The model is designed to handle **non-stationary time series**, where traditional methods fail due to noise, uncertainty, and rapidly changing patterns.
-
-This project focuses on real-world smart grid applications, enabling accurate and interpretable wind power forecasting for renewable energy systems.
+# 🚀  Hybrid Fuzzy-Neural Network for Wind Power Forecasting
 
 ---
 
-##  Problem Statement
+## Abstract
 
-Accurate prediction of wind power is challenging due to:
-
-* Nonlinear relationships between environmental variables
-* High variability in wind conditions
-* Noisy and uncertain sensor data
-
-Traditional models such as ARIMA and linear regression fail to capture these complexities.
+Accurate wind power forecasting is essential for efficient energy management and grid stability. Traditional statistical methods often fail to capture the non-linear and non-stationary nature of wind data. This project proposes a hybrid forecasting framework that combines Fuzzy Time Series (FTS) and Neural Networks to improve prediction accuracy. By integrating rule-based reasoning with data-driven learning, the system provides a more robust and adaptive approach to time-series forecasting.
 
 ---
 
-##  Proposed Solution
+## Problem Statement
 
-This project introduces a **hybrid model** that combines:
+Wind energy generation is highly volatile due to environmental fluctuations. Predicting wind power output accurately is challenging because of:
 
-* 🔹 **Fuzzy Time Series (FTS)**
-  Handles uncertainty and provides interpretable rules
+* Non-linearity in data patterns
+* Temporal dependencies
+* Noise and uncertainty
 
-* 🔹 **Neural Network (MLP)**
-  Learns nonlinear relationships between multiple features
-
-* 🔹 **Hybrid Model (FTS + NN)**
-  Combines both approaches for improved accuracy and stability
+This project aims to design a hybrid system that can effectively model these complexities and improve forecasting performance.
 
 ---
 
-##  Features Used
+## Methodology
 
-The model uses multivariate sensor inputs:
+The system integrates three approaches:
+
+### 1. Fuzzy Time Series (FTS)
+
+* Handles uncertainty using fuzzy logic
+* Converts numerical data into linguistic intervals
+* Captures approximate trends
+
+### 2. Neural Network (Multivariate)
+
+* Learns complex non-linear relationships
+* Uses historical data to model dependencies
+* Improves prediction accuracy over traditional methods
+
+### 3. Hybrid Model (FTS + Neural Network)
+
+* Combines fuzzy rule-based reasoning with neural learning
+* Enhances generalization capability
+* Reduces forecasting error
+
+---
+
+## System Architecture
+
+The workflow of the system is as follows:
+
+1. Data Loading
+2. Preprocessing and normalization
+3. Model training (FTS, Neural Network, Hybrid)
+4. Prediction generation
+5. Performance evaluation
+6. Visualization of results
+
+---
+
+## Dataset
+
+The dataset used in this project consists of wind energy observations including:
 
 * Wind speed
-* Wind direction
-* Air density
-* Temperature
-* Pressure
-* Humidity
-* Rotor speed
-* Blade pitch
-* Turbine yaw
-* Vibration
-
-**Target variable:**
-
 * Power output
+* Time-based features
+
+The dataset is structured to simulate real-world wind forecasting scenarios and is used for training and evaluating all models.
 
 ---
 
-##  Dataset
+## Evaluation Metrics
 
-This project uses a synthetic wind energy dataset generated to simulate real-world turbine sensor behavior under varying environmental conditions. The dataset captures nonlinear and non-stationary patterns required for evaluating hybrid forecasting models.
+The performance of the models is evaluated using:
 
-* Dataset file: `data/sample_wind_data.csv`
-* Contains multivariate sensor readings and corresponding power output
-* Designed for experimentation and model validation
+* **MAE (Mean Absolute Error)**
+* **RMSE (Root Mean Squared Error)**
+* **MAPE (Mean Absolute Percentage Error)**
 
-**Note:** The dataset is a representative sample. Future work includes validation using real-world SCADA datasets.
-
----
-
-##  System Architecture
-
-The system consists of:
-
-1. Data preprocessing (cleaning, scaling, normalization)
-2. Fuzzy interval generation and fuzzification
-3. Neural network training (MLP)
-4. Hybrid prediction combining FTS and NN
-5. Visualization through GUI and dashboard
+Lower values indicate better model performance.
 
 ---
 
-##  Results
+## Results and Analysis
 
-The hybrid model demonstrates:
+The experimental results demonstrate clear differences in model performance:
 
-* Lower prediction error (MAE, RMSE, MAPE)
-* Improved stability under fluctuating wind conditions
-* Better performance compared to traditional models
+* The **FTS model** shows higher error due to its limited ability to model complex patterns
+* The **Neural Network model** performs significantly better by capturing non-linear relationships
+* The **Hybrid model** achieves a balance between interpretability and accuracy
 
----
-
-##  Application Interface
-
-The system includes:
-
-* Tkinter-based GUI
-* Plotly/Dash dashboard
-* Real-time prediction visualization
+The hybrid approach reduces prediction errors compared to traditional methods, making it more suitable for real-world forecasting applications.
 
 ---
 
-##  How to Run the Project
+## Visual Results
 
-### Step 1: Install dependencies
+### Model Performance Dashboard
 
-pip install -r requirements.txt
+![Dashboard](assets/dashboard.png)
 
-### Step 2: Run the application
+### Model Comparison
 
-python main.py
+![Model Comparison](assets/model_comparison.png)
 
----
+### Error Distribution
 
-##  Project Structure
-```bash
-fuzzy-neural-wind-forecast/
-│── main.py
-│── README.md
-│── requirements.txt
-│
-├── data/
-│   ├── sample_wind_data.csv
-│
-├── documents/
-│   ├── report.pdf
-│   ├── poster.pdf
-│   ├── presentation.pdf
-│
-├── assets/
-│   ├── dashboard.png
-```
----
+![Error Distribution](assets/error_distribution.png)
 
-##  Project Documents
+### Forecast Results
 
-This repository includes:
+![Forecast](assets/forecast_full.png)
 
-* Full project report
-* Research poster
-* Presentation slides
+### Detailed Forecast (Last 50 Samples)
+
+![Forecast Zoom](assets/forecast_last50.png)
 
 ---
 
-## 🎥 Demo Video
+## Key Contributions
+
+* Development of a hybrid fuzzy-neural forecasting model
+* Integration of rule-based and machine learning approaches
+* Comparative evaluation of multiple models
+* Visualization-driven analysis of forecasting performance
+* Implementation of a GUI-based system
+
+---
+
+## Limitations
+
+* The dataset size is moderate and may not fully represent large-scale real-world scenarios
+* The neural network architecture is relatively simple
+* External environmental factors are not fully incorporated
+
+---
+
+## Future Work
+
+* Incorporating deep learning models such as LSTM for time-series forecasting
+* Using large-scale real-world datasets for improved generalization
+* Enhancing feature engineering with additional environmental variables
+* Deploying the system as a real-time forecasting application
+
+---
+
+## Demo Video
 
 [Watch Demo Video](https://drive.google.com/file/d/1n084Lqtw0tJVry5EKYe0QBKr7juEYWPX/view?usp=sharing)
----
-
-##  Key Contributions
-
-* Hybrid AI model for non-stationary time series
-* Integration of fuzzy reasoning and deep learning
-* End-to-end system with GUI and visualization
-* Real-world application in renewable energy
 
 ---
 
-##  Note
+## Conclusion
 
-This project was developed as part of a capstone in Computer Science and Engineering, focusing on intelligent forecasting systems for real-world smart energy and renewable grid applications.
+This project demonstrates that combining fuzzy logic with neural networks significantly improves wind power forecasting accuracy. The hybrid model effectively captures both uncertainty and complex patterns in the data, providing a reliable solution for time-series prediction tasks.
 
 ---
 
-##  Author
+## Author
 
 Digumurthy Sruthi Sarika
