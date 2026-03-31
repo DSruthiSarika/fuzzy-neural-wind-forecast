@@ -115,7 +115,7 @@ python main.py
 ---
 
 ##  Project Structure
-
+```bash
 fuzzy-neural-wind-forecast/
 │── main.py
 │── README.md
@@ -131,7 +131,7 @@ fuzzy-neural-wind-forecast/
 │
 ├── assets/
 │   ├── dashboard.png
-
+```
 ---
 
 ##  Project Documents
@@ -144,10 +144,9 @@ This repository includes:
 
 ---
 
-##  Demo
+## 🎥 Demo Video
 
-Demo video will be added soon.
-
+[Watch Demo Video](https://drive.google.com/file/d/1n084Lqtw0tJVry5EKYe0QBKr7juEYWPX/view?usp=sharing)
 ---
 
 ##  Key Contributions
