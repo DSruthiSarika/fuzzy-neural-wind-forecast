@@ -158,13 +158,12 @@ This repository includes:
 
 ---
 
-##  Author
-
-Digumurthy Sruthi Sarika
-
----
-
 ##  Note
 
 This project was developed as part of a capstone in Computer Science and Engineering, focusing on intelligent forecasting systems for real-world smart energy and renewable grid applications.
 
+---
+
+##  Author
+
+Digumurthy Sruthi Sarika
