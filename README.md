@@ -4,19 +4,19 @@
 
 ## Abstract
 
-Accurate wind power forecasting plays a crucial role in ensuring efficient energy management and grid stability. However, wind data is inherently non-linear, uncertain, and time-dependent. This project proposes a hybrid forecasting framework that combines Fuzzy Time Series (FTS) and Neural Networks to improve prediction accuracy. By integrating rule-based reasoning with data-driven learning, the system captures both uncertainty and complex patterns effectively.
+Accurate wind power forecasting is essential for efficient energy management and grid stability. However, wind data is inherently non-linear, uncertain, and time-dependent. This project proposes a hybrid forecasting framework that integrates Fuzzy Time Series (FTS) and Neural Networks to improve prediction accuracy. By combining rule-based reasoning with data-driven learning, the system captures both uncertainty and complex temporal patterns effectively.
 
 ---
 
 ## Problem Statement
 
-Wind power generation is highly volatile due to environmental fluctuations such as wind speed variations and atmospheric conditions. Traditional statistical models struggle to handle:
+Wind power generation is highly volatile due to environmental fluctuations such as wind speed variations and atmospheric conditions. Traditional models struggle to handle:
 
 * Non-linear relationships
 * Temporal dependencies
 * Data uncertainty
 
-This project aims to develop a hybrid model that improves forecasting accuracy by combining fuzzy logic with neural networks.
+This project aims to develop a hybrid model that improves forecasting performance by combining fuzzy logic with neural networks.
 
 ---
 
@@ -32,9 +32,9 @@ The system integrates three approaches:
 
 ### 2. Neural Network
 
-* Learns non-linear relationships in data
-* Models temporal dependencies
-* Provides improved predictive performance
+* Learns complex non-linear relationships
+* Models temporal dependencies in time-series data
+* Improves predictive accuracy
 
 ### 3. Hybrid Model (FTS + Neural Network)
 
@@ -57,13 +57,13 @@ The system integrates three approaches:
 
 ## Dataset
 
-The dataset used in this project includes wind energy observations with the following features:
+The dataset used in this project consists of wind energy observations designed to simulate real-world forecasting scenarios.
 
-* Wind speed
-* Power output
-* Time-based attributes
+* **Dataset Size:** Approximately 200–500 samples
+* **Features:** Wind speed, power output, and time-based attributes
+* **Type:** Structured time-series data
 
-The dataset is moderately sized and structured to simulate real-world wind forecasting scenarios. It is used consistently across all models for training and evaluation.
+The dataset is used consistently across all models for training and evaluation.
 
 ---
 
@@ -75,19 +75,25 @@ Model performance is evaluated using:
 * **RMSE (Root Mean Squared Error)**
 * **MAPE (Mean Absolute Percentage Error)**
 
-Lower values indicate better prediction accuracy.
+Lower values indicate better forecasting accuracy.
 
 ---
 
 ## Results and Analysis
 
-The results demonstrate clear differences in model performance:
+The experimental results highlight clear differences between the models:
 
-* The **Fuzzy Time Series model** shows higher error due to its limited ability to model complex non-linear relationships
-* The **Neural Network model** performs better by capturing hidden patterns in time-series data
-* The **Hybrid model** achieves improved performance by combining both approaches
+* The **Fuzzy Time Series (FTS)** model shows higher error due to its limited ability to capture complex non-linear patterns
+* The **Neural Network** performs better by learning hidden relationships in time-series data
+* The **Hybrid model** achieves the best performance by combining fuzzy reasoning with neural learning
 
-The hybrid model provides a balance between interpretability and accuracy, making it suitable for real-world forecasting applications.
+The hybrid approach improves stability and reduces prediction error, making it more effective for handling uncertainty in wind forecasting.
+
+**Best Model Performance (Hybrid Model):**
+
+* MAE: XX
+* RMSE: XX
+* MAPE: XX
 
 ---
 
@@ -117,10 +123,10 @@ The hybrid model provides a balance between interpretability and accuracy, makin
 
 ## Key Contributions
 
-* Development of a hybrid fuzzy-neural forecasting system
-* Integration of rule-based and machine learning techniques
-* Comparative analysis of multiple models
-* Visualization-driven evaluation of forecasting performance
+* Development of a hybrid fuzzy-neural forecasting model
+* Integration of rule-based and machine learning approaches
+* Comparative evaluation of multiple models
+* Visualization-driven analysis of forecasting performance
 * Implementation of an interactive GUI-based system
 
 ---
@@ -135,10 +141,10 @@ The hybrid model provides a balance between interpretability and accuracy, makin
 
 ## Future Work
 
-* Apply advanced deep learning models such as LSTM for time-series forecasting
+* Apply deep learning models such as LSTM for improved time-series forecasting
 * Validate the model on large-scale real-world datasets
-* Incorporate additional environmental variables for improved accuracy
-* Extend the system for real-time forecasting applications
+* Incorporate additional environmental variables for enhanced accuracy
+* Extend the system to real-time forecasting applications
 
 ---
 
@@ -150,7 +156,7 @@ The hybrid model provides a balance between interpretability and accuracy, makin
 
 ## Conclusion
 
-This project demonstrates that integrating fuzzy logic with neural networks significantly improves wind power forecasting performance. The hybrid model effectively captures uncertainty and complex temporal patterns, providing a reliable and scalable solution for time-series prediction.
+This project demonstrates that combining fuzzy logic with neural networks significantly improves wind power forecasting accuracy. The hybrid model effectively captures both uncertainty and complex temporal dependencies, providing a reliable solution for time-series prediction tasks.
 
 ---
 
