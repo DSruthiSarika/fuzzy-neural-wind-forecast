@@ -117,7 +117,7 @@ The hybrid approach improves stability and reduces prediction error, making it m
 
 ### Detailed Forecast (Last 50 Samples)
 
-![Forecast Zoom](assets/forecast_last 50.jpeg)
+![Forecast Zoom](assets/forecast_last50.jpeg)
 
 ---
 
