@@ -91,9 +91,10 @@ The hybrid approach improves stability and reduces prediction error, making it m
 
 **Best Model Performance (Hybrid Model):**
 
-* MAE: 8.9064
-* RMSE: 11.9431
-* MAPE: 52.25%
+* MAE: 0.5000
+* RMSE: 0.5972
+* MAPE: 2.61%
+* Accuracy: 97.45%
 
 ---
 
