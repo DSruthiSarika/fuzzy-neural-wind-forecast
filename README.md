@@ -101,23 +101,23 @@ The hybrid approach improves stability and reduces prediction error, making it m
 
 ### Model Performance Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/dashboard.jpeg)
 
 ### Model Comparison
 
-![Model Comparison](assets/model_comparison.png)
+![Model Comparison](assets/model_comparison.jpeg)
 
 ### Error Distribution
 
-![Error Distribution](assets/error_distribution.png)
+![Error Distribution](assets/error_distribution.jpeg)
 
 ### Forecast Results
 
-![Forecast](assets/forecast_full.png)
+![Forecast](assets/forecast_full.jpeg)
 
 ### Detailed Forecast (Last 50 Samples)
 
-![Forecast Zoom](assets/forecast_last50.png)
+![Forecast Zoom](assets/forecast_last 50.jpeg)
 
 ---
 
