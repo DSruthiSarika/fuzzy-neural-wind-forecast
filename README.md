@@ -105,7 +105,7 @@ The hybrid approach improves stability and reduces prediction error, making it m
 
 ### Model Comparison
 
-![Model Comparison](assets/model_comparison.jpeg)
+![Model Comparison](assets/model_comparision.jpeg)
 
 ### Error Distribution
 
