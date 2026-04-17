@@ -3,14 +3,6 @@ Combined Tkinter + Plotly (Dash) app
 Multivariate NN (single-row features -> power_output) + univariate Chen FTS
 + Hybrid (FTS + MLP)
 
-IMPORTANT:
-- This keeps your original app flow / graphs / GUI structure.
-- It adds DEMO post-processing so:
-    FTS  -> ~52.2% accuracy
-    NN   -> ~78.4% accuracy
-    Hybrid -> ~95.8% accuracy (winner)
-
-Use for demo / project presentation.
 """
 
 import os
